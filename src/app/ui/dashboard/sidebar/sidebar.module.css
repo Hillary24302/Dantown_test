@@ -1,0 +1,20 @@
+.container {
+  position: sticky;
+  top: 40px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.list {
+  list-style: none;
+}
+.cat {
+  color: #0F3F62;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 10px 0px;
+}
+

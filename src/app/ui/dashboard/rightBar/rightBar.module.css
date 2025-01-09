@@ -1,0 +1,148 @@
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2px;
+  margin-top: 16px;
+}
+.chats {
+  color: #0F3F62;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+}
+.chatscontent {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+.number {
+  background-color: #E0F3F3;
+  padding: 6px;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 400;
+  color: #54BCBD;
+}
+.circle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  gap: 2px;
+  justify-content: center;
+  margin: auto;
+}
+.header {
+  color: #0F3F62;
+  font-size: 14px;
+  font-weight: 500;
+}
+.text {
+  color: #8695A0;
+  font-size: 10px;
+  font-weight: 400;
+}
+.icon {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+.customDivider {
+  margin: 16px 0; 
+}
+.message {
+  margin-top: 70px;
+  border-radius: 12px 12px 0 0;
+  background: #fff;
+}
+.boxheader {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #5DC2C4;
+ padding: 12px;
+ border-radius: 12px 12px 0 0;
+}
+.boxtext {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.textmessages {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+}
+.today {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  background: #072E75;
+  border-radius: 16px;
+  padding: 8px 18px;
+  text-align: center;
+}
+.sentmessages {
+  display: flex;
+margin-top: 12px;
+padding: 10px;
+gap: 4px;
+}
+.recieved {
+  color: #5DC2C4;
+  font-size: 10px;
+  font-weight: 400;
+  background: #E0F3F3;
+  border-radius: 12px;
+  padding: 8px 10px;
+  text-align: left;
+}
+.sent {
+  color: #fff;
+  font-size: 10px;
+  font-weight: 400;
+  background: #5DC2C4;
+  border-radius: 12px;
+  padding: 8px 10px;
+  text-align: right;
+}
+.time {
+  color: #8695A0;
+  font-size: 10px;
+  font-weight: 400;
+  text-align: right;
+  margin-top: 12px;
+}
+.searchWrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 12px;
+  gap: 6px;
+  margin-bottom: 30px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background: #fff;
+  padding: 8px;
+  border: 1px solid #d0d6da;
+  border-radius: 10px;
+  }
+  .input {
+  background: transparent;
+  border: none;
+  color: #a6b2ba;
+  }
