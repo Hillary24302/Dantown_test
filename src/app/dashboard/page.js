@@ -3,7 +3,7 @@ import styles from "../ui/dashboard/dashboard.module.css";
 import RightBar from "../ui/dashboard/rightBar/rightBar";
 import FriendsList from "../ui/dashboard/friendsList/friendsList";
 
-const Home = () => {
+const Dashboard = () => {
   return (
     <div className={styles.cardWrapper}>
       <div className={styles.cardContent}>
@@ -16,4 +16,4 @@ const Home = () => {
     </div>
   );
 };
-export default Home;
+export default Dashboard;

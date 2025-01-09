@@ -19,7 +19,7 @@ const menuItems = [
     list: [
       {
         title: "Home",
-        path: "/dashboard",
+        path: "/",
         icon: <GoHome />,
       },
       {
