@@ -55,7 +55,7 @@ const TimelinePage = () => {
         </div>
         <div className={styles.inputContainer}> 
         <span>Department</span><br/>
-        <input onChange={(e)=>setName({...name, department:e.target.value})} type="text" placeholder="IT" value={name.department}></input>
+        <input onChange={(e)=>setName({...name, department:e.target.value})} type="text" placeholder="Customer Happiness" value={name.department}></input>
       </div>
       </div>
       </form>
