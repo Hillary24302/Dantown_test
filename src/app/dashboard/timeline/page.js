@@ -3,17 +3,24 @@
 import { useState } from "react";
 import styles from "./timeline.module.css";
 
+import { Outfit } from "next/font/google";
+const outfit = Outfit({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700'],
+});
+
+
 const TimelinePage = () => {
    const[name, setName] = useState({firstName:"", lastName:"", 
                                      email:"", phoneNum:"",
                                      password:"", staffID:"",
                                      username:"", department:"",});
-    return <div className={styles.formBody}>
+    return   <div className={`${styles.formBody} ${outfit.className}`}>
       <h3 className={styles.heading}>Profile</h3>
       <div className={styles.profile}>
         <img src="/images/IMG_5708.jpg" className={styles.image} alt="profile image" />
         <div>
-         <p className={styles.pName}><strong>Ruhamah Chioma Eti</strong></p>
+         <p className={styles.pName}>Ruhamah Chioma Eti</p>
          <p className={styles.pEmail}>ruhamaheti@gmail.com</p>
          </div>
          </div>
